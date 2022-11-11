@@ -1,4 +1,4 @@
-name: flutter_pertama 
+name: flutter_pertama
 version: 1.0.0+1
 publish_to: none
 description: A new Flutter project.
@@ -9,6 +9,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: 4.6.5
   onboarding: 3.1.0
+  ionicons: 0.2.1
+  antdesign_icons: 0.0.3
   flutter: 
     sdk: flutter
 
@@ -18,5 +20,8 @@ dev_dependencies:
     sdk: flutter
 
 flutter: 
+  assets: 
+    - assets/images/
+    - assets/icons/
   uses-material-design: true
 
